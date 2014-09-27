@@ -1,13 +1,20 @@
 
 		<div class="card">
-			<h1>Uffender</h1>
+			<h1>Sugar Coater</h1>
 			<div class="form-wrapper">
 				<div class="form-row">
 					<textarea type="text-box"></textarea>
 					<div>
-						<button class="btn btn-default">Passivize</button>
+						<button class="btn btn-default">sugar coat</button>
 					</div>
 				</div>
+
+				<% if(processedText){ %>
+				<div class="form-row sugar-coated">
+					<div class=""><%= processedText %></div>
+				</div>
+				<% } %>
+
 			</div>
 		</div>
 		<!-- <div class="sticky-note-wrapper">

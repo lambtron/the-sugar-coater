@@ -16,7 +16,11 @@ define(function (require) {
     },
 
     process: function(text){
-      alert('processing text: ' + text);
+      return { 
+        then: function(callback){ 
+          callback("No offense, but "+  text + "!"); 
+        } 
+      };
     }
 
   });

@@ -17,5 +17,8 @@
     "express": "3.x",
     "underscore": "latest",
     "natural": "^0.1.28"
+  },
+  "devDependencies": {
+    "text": "git://github.com/requirejs/text"
   }
 }
