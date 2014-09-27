@@ -11,7 +11,23 @@
 	module.exports = {
 		getMessage: function getMessage (input) {
 			// see what message it is.
-			return output;
+			var gender = getGender(input);	// dude, chick
+			var appearance = getAppearance(input); // appearance, nonappearance
+
+			// search through responses.
+			// iterate through responses array
+			// for all objects with .tags matching, save to new array
+			var potentialResponses = [];
+			for (var i = 0; i < responses.length; i++) {
+				if (responses[i].tags.indexOf(gender) > 0 ||
+					responses[i].tags.indexOf(appearance)) {
+					potentialResponses.push(responses[i].msg);
+				}
+			}
+
+			// randomly choose one from potentialResponses
+			return potentialResponses[Math.floor(Math.random() *
+				potentialResponses.length) + 1];
 		}
 	};
 
@@ -32,15 +48,15 @@
 	    	tags: ["appearance", "chick"]
 	    },
 	    {
-	    	msg: "Maybe you can take me thrift shopping sometime?  You're so good at it.",
+	    	msg: "Maybe you can take me thrift shopping sometime? You're so good at it.",
 	    	tags: ["appearance", "chick"]
 	    },
 	    {
-	    	msg: "It's great that you wore that.  You are so comfortable in your own skin.",
+	    	msg: "It's great that you wore that. You are so comfortable in your own skin.",
 	    	tags: ["appearance"]
 	    },
 	    {
-	    	msg: "You just never let working with smart people intimidate you.  I think that's so brave.",
+	    	msg: "You just never let working with smart people intimidate you. I think that's so brave.",
 	    	tags: ["nonappearance"]
 	    },
 	    {
@@ -178,7 +194,7 @@
 	  ];
 	}
 
-	function getAppearanceIndex (line) {
+	function getAppearance (line) {
 	  return appearanceClassifier.classify(line);
 	}
 
