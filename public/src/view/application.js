@@ -26,10 +26,13 @@ define(function (require) {
 
     submit: function(){
       this.userText = $('textarea').val();
-      this.processor.process(this.userText).then(
-        _.bind(function(processedText){
-          this.processedText = processedText;
-          this.render();
+      var callback = _.bind(function( response ) {
+        this.processedText = response.message;
+        this.render();
+      }, this);
+      $.post( "api/message", {message: this.userText}, callback)
+        .fail(_.bind(function() {
+          callback({message: "No offense, but " + this.userText});
         }, this));
     }
 
