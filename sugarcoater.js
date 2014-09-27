@@ -63,6 +63,9 @@
 	  officeClassifier.addDocument('', 'notoffice');
 	  genderClassifier.addDocument(dude, 'dude');
 	  genderClassifier.addDocument(chick, 'chick');
+
+	  officeClassifier.train();
+	  genderClassifier.train();
 	}
 
 	function initializeResponses () {

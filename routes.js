@@ -8,8 +8,7 @@
   module.exports = function (app) {
     // API Routes ==============================================================
     app.post('/api/message', function (req, res) {
-      // res.send(req.body.message);
-      res.send(sugarcoater.getMessage(req.body.message), 200);
+      res.send({message: sugarcoater.getMessage(req.body.message)}, 200);
     });
 
     // Application routes ======================================================
