@@ -6163,12 +6163,19 @@ button.close {
     display: none !important;
   }
 }
+@font-face {
+  font-family: curlyFont;
+  src: url(assets/GreatVibes-Regular.otf);
+}
 body {
   background-color: #4acbe4;
   background-size: 300px;
   background-image: url(/assets/skullfiredog3x3.png);
 }
 h1 {
+  font-family: curlyFont;
+  font-size: 61px;
+  color: #63144d;
   text-align: center;
 }
 .card {
@@ -6211,14 +6218,16 @@ h1 {
   float: right !important;
 }
 .form-wrapper .btn-default {
-  background-color: #4acbe4;
+  background-color: #52858f;
+  color: white;
 }
 .form-wrapper .btn-default:hover {
-  background-color: #FFF;
+  background-color: #4acbe4;
 }
 .sugar-coated {
-  background-color: pink;
-  font-size: 30px;
+  font-family: curlyFont;
+  background-color: #fce4e8;
+  font-size: 40px;
 }
 .sticky-note-wrapper {
   position: relative;
