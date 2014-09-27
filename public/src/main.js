@@ -7,7 +7,7 @@ requirejs.config({
     // jquery: "../lib/jquery",
     // underscore: "../lib/underscore",
     // backbone: "../lib/backbone",
-    text: "../node_modules/text/text"
+    text: "../lib/text/text"
   },
   shim: {
     backbone: {
