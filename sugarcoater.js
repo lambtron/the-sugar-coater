@@ -39,7 +39,8 @@
 			"Die in a fire, fucking bitch!",
 			"Suck your own clit, cuntface.",
 			"Lobotomized professional victim, quit crying.",
-			"Keep complaining, slutface.  Nobody cares."
+			"Keep complaining, slutface. Nobody cares.",
+			"Start getting cats because you are a cat lady"
 		];
 
 		var dude = [
@@ -249,7 +250,7 @@
 	    	tags: ["office", "chick", "dude"]
 	    },
 			{
-				msg: "Your wife makes a decent living, right?  So you’ll be okay."
+				msg: "Your wife makes a decent living, right?  So you’ll be okay.",
 				tags: ["office", "dude"]
 			},
 			{
