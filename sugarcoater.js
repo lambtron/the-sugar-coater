@@ -172,7 +172,7 @@
 	    	tags: ["nonappearance"]
 	    },
 	    {
-	    	msg: "Start offering candy or desert and then stop midway.  \"Oh, I'm sorry. You're dieting, right? Nevermind.\""
+	    	msg: "Start offering candy or desert and then stop midway.  \"Oh, I'm sorry. You're dieting, right? Nevermind.\"",
 	    	tags: ["appearance"]
 	    }
 	  ];
