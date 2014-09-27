@@ -32,6 +32,9 @@ define(function (require) {
       }, this);
       $.post( "api/message", {message: this.userText}, callback)
         .fail(_.bind(function() {
+          if(!this.userText){
+            this.userText = "you should really enter some text."
+          }
           callback({message: "No offense, but " + this.userText});
         }, this));
     }
