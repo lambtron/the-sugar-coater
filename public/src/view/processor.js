@@ -10,9 +10,9 @@ define(function (require) {
      // $ = require('jquery');
 
   return Backbone.View.extend({
-   
+
     initialize: function(el){
-     
+
     },
 
     process: function(text){
@@ -20,4 +20,5 @@ define(function (require) {
     }
 
   });
+
 });
