@@ -1,15 +1,15 @@
 {
-  "name": "YOOOAL",
-  "description": "Yo updates for World Cup 2014.",
+  "name": "Pacifier",
+  "description": "Suck on it.",
   "version": "0.0.1",
   "author": "Andy Jiang",
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lambtron/YOOOAL"
+    "url": "https://github.com/lambtron/pacifier"
   },
   "engines": {
-    "node": "0.10.22",
+    "node": "^0.11",
     "npm": "1.1.x"
   },
   "private": true,
