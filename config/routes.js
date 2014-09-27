@@ -5,8 +5,6 @@
   /**
    * Import helpers ============================================================
    */
-  var Worldcup = require('../app/helpers/worldcup');
-  var Yo = require('../app/helpers/yo');
 
   // Public functions. =========================================================
   module.exports = function (app) {
