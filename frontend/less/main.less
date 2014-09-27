@@ -1,0 +1,114 @@
+@import "../node_modules/bootstrap/less/bootstrap.less";
+
+@lightblue:  rgb(74, 203, 228);
+body {
+	background-color: @lightblue;
+	background-size: 300px;
+	background-image: url(/assets/skullfiredog3x3.png);
+}
+
+.large-box-shadow(){
+	-webkit-box-shadow: 0px 0px 42px 10px rgba(0,0,0,0.55);
+	-moz-box-shadow: 0px 0px 42px 10px rgba(0,0,0,0.55);
+	box-shadow: 0px 0px 42px 10px rgba(0,0,0,0.55);
+}
+
+
+h1 {
+	text-align: center;}
+
+.card {
+	min-width: 300px;
+	min-height: 400px;
+	background-color:  white;
+	.large-box-shadow();
+	border: 1px solid lightgray;
+	padding: 30px;
+	margin: 30px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-bottom: 80px;
+	left: 50%;
+}
+
+.form-wrapper {
+	:focus {
+	    outline: none;
+	}
+
+    margin-left: auto;
+    margin-right: auto;
+	width: 800px;
+	.form-row {
+		padding: 20px;
+	}
+	
+	textarea {
+		border: 10px solid lightgray;
+		width: 100%;
+		height: 280px;
+		resize: none;
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+	.btn {
+		font-size: 20px;
+		.pull-right();
+	}
+	.btn-default {
+		background-color: @lightblue;
+		&:hover {
+			background-color: #FFF;
+		}
+
+	}
+}
+
+.sticky-note-wrapper {
+	position: relative;
+	@note-size: 200px;
+	height: @note-size;
+	width: @note-size;
+	.peel-pretend-background {
+		background-color: white;
+		height: 400px;
+		width: 400px;
+		overflow: hidden;
+		left: 200px;
+		top: 0px;
+		position: absolute;
+		transform-origin: 0% 0% 0;
+		transform: rotate(45deg);
+
+		
+	}
+
+	&:hover {
+		/*transform: rotate(45deg);*/
+
+	}
+	.foreground-peel-corner {
+		background-color: rgb(255, 255, 100);
+		box-shadow: 0 -140px 20px -140px;
+		-webkit-box-shadow: 0 -140px 20px -140px;
+		left: @note-size - 10px;
+		top: @note-size - 10px;
+		position: absolute;
+
+		height: @note-size;
+		width: @note-size;
+	
+		:hover {
+			left: 0px;
+			top: 0px;
+
+		}
+	}
+
+	.note-part {
+		height: @note-size;
+		width: @note-size;
+	
+		background-color: yellow;
+	}
+}
