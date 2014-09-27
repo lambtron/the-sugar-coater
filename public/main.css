@@ -6212,13 +6212,15 @@ h2 {
 }
 .form-wrapper textarea {
   border: 10px solid lightgray;
-  width: 100%;
-  height: 280px;
+  width: 618px;
+  height: 57px;
   resize: none;
   margin-bottom: 20px;
   font-size: 20px;
 }
 .form-wrapper .btn {
+  margin-top: 6px;
+  height: 46px;
   font-size: 20px;
   float: right !important;
 }
@@ -6239,7 +6241,6 @@ h2 {
   font-family: curlyFont;
   background-color: #fce4e8;
   font-size: 40px;
-  margin-top: 35px;
 }
 .sticky-note-wrapper {
   position: relative;
