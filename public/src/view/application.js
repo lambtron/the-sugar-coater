@@ -25,7 +25,6 @@ define(function (require) {
     },
 
     submit: function(){
-      alert ('submitted' + $('textarea').val());
       this.userText = $('textarea').val();
       this.processor.process(this.userText).then(
         _.bind(function(processedText){

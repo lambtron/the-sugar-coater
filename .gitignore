@@ -18,7 +18,7 @@ coverage
 
 #mac specific metadata
 .DS_Store
-
+./**/.DS_Store
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
