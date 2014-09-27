@@ -1,0 +1,22 @@
+{
+  "name": "YOOOAL",
+  "description": "Yo updates for World Cup 2014.",
+  "version": "0.0.1",
+  "author": "Andy Jiang",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lambtron/YOOOAL"
+  },
+  "engines": {
+    "node": "0.10.22",
+    "npm": "1.1.x"
+  },
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "underscore": "latest",
+    "request": "latest",
+    "mongoose": "latest"
+  }
+}
