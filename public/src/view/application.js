@@ -21,12 +21,17 @@ define(function (require) {
 
     template: _.template(Template),
     render : function(){
-       this.$el.html( this.template({}) );
+       this.$el.html( this.template({ processedText: this.processedText, userText: this.userText}) );
     },
 
     submit: function(){
       alert ('submitted' + $('textarea').val());
-      this.processor.process($('textarea').val());
+      this.userText = $('textarea').val();
+      this.processor.process(this.userText).then(
+        _.bind(function(processedText){
+          this.processedText = processedText;
+          this.render();
+        }, this));
     }
 
 
