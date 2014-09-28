@@ -149,184 +149,237 @@
 
 	function initializeResponses () {
 	  responses = [
+		  {
+		  	msg: "\"Think of getting fired as a blessing. Now you can find a job you're really good at.\"",
+		  	tags: ["dude", "chick", "office"]
+		  },
+		  {
+		  	msg: "\"It’s so brave of you to age naturally\"",
+		  	tags: ["chick", "nonoffice", "office"]
+		  },
+		  {
+		  	msg: "\"Oh, I didn't realize you meant now.\"",
+		  	tags: ["dude", "chick", "office", "nonoffice"]
+		  },
+		  {
+		  	msg: "Like the responses to your friend's facebook posts, but never like your friend's original posts themselves.",
+		  	tags: ["dude", "chick", "nonoffice", "office"]
+		  },
+		  {
+		  	msg: "\"I'm not mad. I'm just disappointed.\"",
+		  	tags: ["dude", "chick", "nonoffice", "office"]
+		  },
+		  {
+		  	msg: "\"Are you still driving your old car?\"",
+		  	tags: ["dude", "chick", "nonoffice", "office"]
+		  },
+	  	{
+	  		msg: "\"So, you’re what they call a metrosexual?\"",
+	  		tags: ["dude", "office", "nonoffice"]
+	  	},
+	  	{
+	  		msg: "\"Wow! I've never seen you wear a tie!\"",
+	  		tags: ["dude", "office", "nonoffice"]
+	  	},
 	    {
-	    	msg: "I love your shabby chic aesthetic!",
+	    	msg: "\"I love your shabby chic aesthetic!\"",
 	    	tags: ["chick", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "Maybe you can take me thrift shopping sometime? You're so good at it.",
+	    	msg: "\"Maybe you can take me thrift shopping sometime? You're so good at it.\"",
 	    	tags: ["chick", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "It's great that you wore that. You are so comfortable in your own skin.",
+	    	msg: "\"It's great that you wore that. You are so comfortable in your own skin.\"",
 	    	tags: ["chick", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "You just never let working with smart people intimidate you. I think that's so brave.",
+	    	msg: "\"You just never let working with smart people intimidate you. I think that's so brave.\"",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "I admire you for not giving in to the pressure to botox.",
+	    	msg: "\"I admire you for not giving in to the pressure to botox.\"",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "You're only ___?  You seem so mature for your age.",
+	    	msg: "\"You're only ___? You seem so mature for your age.\"",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "You watch a lot of reality tv, right?  Maybe you \"can help me understand this...",
+	    	msg: "\"You watch a lot of reality tv, right? Maybe you can help me understand this...\"",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "You are so knowledgeable about reality TV and pop culture.",
+	    	msg: "\"You'd know more about this than me.  It's from way before my time.\"",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "I defer to your experience.  Of course, you are much closer to these things than I am.",
+	    	msg: "\"Was that blouse another street find? Your dedication to recycling is so inspiring. I love how you are saving the planet one outfit at a time!\"",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "Was that blouse another street find?  Your dedication to recycling is so inspiring. I love how you are saving the planet one outfit at a time.",
+				msg: "\"Wait, you're not forty yet?\"",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "My cousin is a little slow. You know the one. He went to your college, I think?",
+	    	msg: "\"My cousin is a little slow. You know him, right? He went to college with you, I think.\"",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "My cousin, you know, the slow one? He has really unique taste. Can you help me with gift ideas for him?",
+	    	msg: "\"My cousin, you know, the strange one? I thought you'd be the perfect person to help me with gift ideas for him. Your taste is just so special.\"",
+	    	tags: ["chick", "dude", "office", "nonoffice"]
+			},
+	    {
+	    	msg: "\"Your style is...unique. You're really brave.\"",
+	    	tags: ["chick", "dude", "office", "nonoffice"]
+ 			},
+	    {
+	    	msg: "\"That's not a tattoo?\"",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "You just don't care what other people think. I really admire that about you.",
+	    	msg: "\"It's so cool how little you care.\"",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "It's so cool how you don't care what poeple think of you.",
+	    	msg: "\"You're so good at not letting what other people say about you bother you. I really admire that.\"",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "You're so good at not letting what other people say about you bother you. I really admire that.",
+	    	msg: "\"I love how relaxed you are. It's like you don't even try.\"",
+	    	tags: ["chick", "dude", "office", "nonoffice"]
+ 			},
+	    {
+	    	msg: "\"How's that project of yours going? You know, the cute one.\"",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "I love how you just don't care.",
-	    	tags: ["chick", "dude", "office", "nonoffice"]
-	    },
-	    {
-	    	msg: "Dude, that's cool that you decided to date a smart girl.  Everybody's so hung up on looks.",
+	    	msg: "\"Dude, that's cool that you decided to date a smart girl. People are too hung up on looks.\"",
 	    	tags: ["dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "Are you an only child?",
+	    	msg: "\"Are you an only child?\"",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "Are you an actress?",
+	    	msg: "\"Are you an actress?\"",
 	    	tags: ["chick", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "Have you ever thought of growing a beard?",
+	    	msg: "\"Have you ever considered growing a beard?\"",
 	    	tags: ["dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "It's so great that you have so much time to spend on Facebook. I always see you on there.",
+	    	msg: "\"It's so great that you have so much time to spend on Facebook. I always see you on there.\"",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "It's great how you are willing to stretch yourself and do things that don't come naturally to you.",
+	    	msg: "\"It's great how you are willing to stretch yourself and do things that don't come naturally to you.\"",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "We all admire how hard you try.",
+	    	msg: "\"We all admire how hard you try.\"",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "When are you due?!",
+	    	msg: "\"OMG!  When are you due??!!\"",
 	    	tags: ["chick", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "It's so exciting that your wife is pregnant.",
+	    	msg: "\"I think I saw your wife yesterday. That's wonderful that she's expecting!\"",
 	    	tags: ["dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "It's great that you posted that selfie. I love how unvain you are.",
+	    	msg: "\"It's great that you posted that selfie. I love how unvain you are.\"",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "Wow, you really remind me of my mother. (Leave hanging and unclarified the question of whether your mother is an unspeakably heinous human being.)",
+	    	msg: "\"You are so much like my sister, the one with borderline personality disorder.\"",
 	    	tags: ["chick", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "Wow, you really remind me of my mother. Before she went into therapy.",
+	    	msg: "\"Wow, you really remind me of my mother. Before she went into therapy.\"",
 	    	tags: ["chick", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "Wow, you look good in make up!",
+	    	msg: "\"Wow, you look good in make up!\"",
 	    	tags: ["chick", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "This looks good. I don't know what they were talking about.",
+	    	msg: "\"This looks good. I don't know what they were talking about.\"",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "Are you tired? You look tired.",
+	    	msg: "\"Are you tired? You look tired.\"",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "Give candy bar twelve pack as gift.",
+	    	msg: "\"You're not stupid.  Don't let what people say about you bother you.\"",
+	    	tags: ["chick", "dude", "office", "nonoffice"]
+
+	    },
+	    {
+	    	msg: "Give them candy bar twelve pack as gift.",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "Give diet candy as gift",
+	    	msg: "Give them diet candy as gift.",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "Walk or drive very slowly in front of person. Smile and waive when they pass.",
+	    	msg: "Blocking them as much as possible, drive extremely slowly in front of them. Smile and waive enthusiastically as they finally pass.",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "Regift gift back to person who gave it to you...in different wrapping paper.",
+	    	msg: "Rewrap gift they gave you and give it back to them on their birthday. Don't acknowledge the \"coincidence.\"",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "Regift something you received from this person to a third person...in their presence.",
+	    	msg: "In their presence, give something you received from them to another person.",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "Start offering candy or desert and then stop midway.  \"Oh, I'm sorry. You're dieting, right? Nevermind.\"",
+	    	msg: "Offer them some candy and then stop midway, exclaiming, \"Oh, I'm sorry. You're dieting, right? Nevermind.",
 	    	tags: ["chick", "dude", "office", "nonoffice"]
 	    },
 	    {
-	    	msg: "I'm sorry, I wasn't being clear when I gave instructions. It's my fault you fucked it up.",
+	    	msg: "\"I'm sorry, I wasn't clear when I gave instructions. It's my fault you fucked it up.\"",
 	    	tags: ["office", "chick", "dude"]
 	    },
 			{
-				msg: "Think of getting fired as a blessing. Now you can find a job you're really good at.",
+				msg: "\"Maybe you'd be happier if you quit?\"",
 	    	tags: ["office", "chick", "dude"]
 	    },
 	    {
-				msg: "Sorry to keep you waiting--I needed to finish reading this article about Gwyneth Paltrow.",
+				msg: "\"Sorry to keep you waiting--I needed to finish reading an article about Gwyneth Paltrow.\"",
 	    	tags: ["office", "chick", "dude"]
 	    },
 			{
-				msg: "In response to photo hanging in their workspace: \"Wow, you used to be so pretty!\"",
+				msg: "Regarding an old photo hanging in their workspace: \"Wow, you used to be so pretty!\"",
 	    	tags: ["office", "chick", "dude"]
 	    },
 			{
-				msg: "You never let working with smart people intimidate you.  That's so cool.",
+				msg: "\"You never let working with smart people intimidate you.  That's so cool.\"",
 	    	tags: ["office", "chick", "dude"]
 	    },
 			{
-				msg: "Your wife makes a decent living, right?  So you’ll be okay.",
+				msg: "\"Your wife makes a decent living, right?  So, you don't really have to worry about it.\"",
 				tags: ["office", "dude"]
 			},
 			{
-				msg: "Congrats on the new ____! I hope it goes better than the last one.",
+				msg: "\"You're gonna get better at this. Don't be hard on yourself.\"",
+				tags: ["office", "chick", "dude"]
+			},
+			{
+				msg: "\"Maybe you’d be happier in a job where you work with your hands?\"",
 				tags: ["nonoffice", "chick", "dude"]
 			},
 			{
-				msg: "You're so brave to eat so many calories without a plan to burn them off.",
+				msg: "\"This looks good. You’re doing fine. I don't know what they were talking about.\"",
+				tags: ["office", "chick", "dude"]
+			},
+			{
+				msg: "To demonstrate their insignificance to you, never call this person by the right name.  When corrected, employ yet another wrong name in your distracted apology:  \"Oh, right, Tina.  I'm sorry.\"",
 				tags: ["nonoffice", "chick", "dude"]
 			}
 	  ];
